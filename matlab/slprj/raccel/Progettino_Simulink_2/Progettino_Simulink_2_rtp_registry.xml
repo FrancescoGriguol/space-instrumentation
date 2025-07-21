@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/slsa_mm_rtp_registry/R2023a">
-  <slsa.mm.rtpregistry.ModelMetadata type="slsa.mm.rtpregistry.ModelMetadata" uuid="f67300a1-babb-46b6-a224-0b2e86afc043">
-    <modelName>Progettino_Simulink_2</modelName>
-  </slsa.mm.rtpregistry.ModelMetadata>
-</MF0>
