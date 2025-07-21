@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/slsa_mm_rtp_registry/R2023a">
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="9659cf91-cb8c-46d8-b345-3817a256ebef">
+    <blockPath>Progettino_Simulink/CubeSat Vehicle (Nadir Pointing)/Reduction DCMs/R_woPM /IAUReduction/Celestial motion of the CIP/P03 Precession/Y/Constant</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="fdabbe95-d1a0-45d9-9d46-133433cf8c17"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="96bf5a14-8c3e-49d8-af85-11bddbc6bd32">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="e6c47c1f-e059-4437-be95-e6fed5505924"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="e7a2437c-9bc6-4183-bc27-ecf4d79fcf50"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="16e23d32-aecd-42d3-b152-86070ffc2ff3">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="35fee024-28cd-4b48-ba2e-d0964188a7c7"/>
+    <valueIndices>9</valueIndices>
+    <valueIndices>11</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.ModelMetadata type="slsa.mm.rtpregistry.ModelMetadata" uuid="46bd1735-15d5-486e-a7e3-8806d1451ecd">
+    <modelName>Progettino_Simulink</modelName>
+  </slsa.mm.rtpregistry.ModelMetadata>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="35fee024-28cd-4b48-ba2e-d0964188a7c7">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="c4cfc199-452f-4298-97bd-d4983ee442f2"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="16e23d32-aecd-42d3-b152-86070ffc2ff3"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="b458d006-e7f1-4360-8352-61b77845b3ee">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="fdabbe95-d1a0-45d9-9d46-133433cf8c17"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>29915</valueIndices>
+    <valueIndices>51589</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="3460a35f-c027-479c-92f3-4aa96d7ed3b3">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="83523ec1-67cb-4656-a573-b09707a5f495"/>
+    <valueIndices>34</valueIndices>
+    <valueIndices>36</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="c4cfc199-452f-4298-97bd-d4983ee442f2">
+    <blockPath>Progettino_Simulink/CubeSat Vehicle (Nadir Pointing)/6DOF Rotational Dynamics</blockPath>
+    <name>euler0</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="35fee024-28cd-4b48-ba2e-d0964188a7c7"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="83523ec1-67cb-4656-a573-b09707a5f495">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="473d6ae1-6c07-4cf1-bfa1-83e63d5a106e"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="3460a35f-c027-479c-92f3-4aa96d7ed3b3"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="87c5e6e4-b305-40ca-85fe-82d5916281c5">
+    <blockPath>Progettino_Simulink/CubeSat Vehicle (Nadir Pointing)/Reduction DCMs/R_woPM /IAUReduction/Celestial motion of the CIP/P03 Precession/S/Constant</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="4e71588b-0825-436f-9e5d-439e7cc66b5b"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="473d6ae1-6c07-4cf1-bfa1-83e63d5a106e">
+    <blockPath>Progettino_Simulink/CubeSat Vehicle (Nadir Pointing)/6DOF Rotational Dynamics</blockPath>
+    <name>pqr0</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="83523ec1-67cb-4656-a573-b09707a5f495"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="b1d12911-60de-4063-b4b6-df3c2aefd429">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="7adbadc2-c5b1-427c-9a4b-1ccfca003cde"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="789b0998-f077-4b75-868d-dacbaf67732f"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="7adbadc2-c5b1-427c-9a4b-1ccfca003cde">
+    <blockPath>Progettino_Simulink/CubeSat Vehicle (Nadir Pointing)/Calculate pointing command/DCM Constraint to Body/constraintCoord</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="b1d12911-60de-4063-b4b6-df3c2aefd429"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="b8187818-3003-4737-92e2-a70cedc62eff">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="2eb93280-2622-46a7-8fa0-15867e0c2f9c"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="76d2a8d4-6ab1-4d95-97f0-5c5d234987f5"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="789b0998-f077-4b75-868d-dacbaf67732f">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="b1d12911-60de-4063-b4b6-df3c2aefd429"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>296</valueIndices>
+    <valueIndices>296</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="3fab0e94-6403-44b2-b95c-6b60fdd8bdd5">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="27e90587-e04f-4609-8d7f-f074e44c202e"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>300</valueIndices>
+    <valueIndices>300</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="bfd0482d-e8bf-4ed9-8925-1225205c8e1b">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="003ba5c5-2850-4afc-8d8a-2d5f75e2273a"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="a30b0a23-bbb4-45ff-909c-2c69bf62296b"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="003ba5c5-2850-4afc-8d8a-2d5f75e2273a">
+    <blockPath>Progettino_Simulink/CubeSat Vehicle (Nadir Pointing)/firstRef</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="bfd0482d-e8bf-4ed9-8925-1225205c8e1b"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="a30b0a23-bbb4-45ff-909c-2c69bf62296b">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="bfd0482d-e8bf-4ed9-8925-1225205c8e1b"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>297</valueIndices>
+    <valueIndices>299</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="e7a2437c-9bc6-4183-bc27-ecf4d79fcf50">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="96bf5a14-8c3e-49d8-af85-11bddbc6bd32"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>318</valueIndices>
+    <valueIndices>318</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="677aaac1-6d24-4be8-9a0b-064f55a954ec">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="5e483903-e9d3-4a42-9d8b-be3ab4a810ca"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="5053ed0a-a235-4be0-9ae4-d54d2eab59c9"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="27e90587-e04f-4609-8d7f-f074e44c202e">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="a548cc24-294b-4980-be90-080bdc3edb95"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="3fab0e94-6403-44b2-b95c-6b60fdd8bdd5"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="a548cc24-294b-4980-be90-080bdc3edb95">
+    <blockPath>Progettino_Simulink/CubeSat Vehicle (Nadir Pointing)/Calculate pointing command/First Constraint/pointing</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="27e90587-e04f-4609-8d7f-f074e44c202e"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="5e483903-e9d3-4a42-9d8b-be3ab4a810ca">
+    <blockPath>Progettino_Simulink/CubeSat Vehicle (Nadir Pointing)/PID controller/pointing</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="677aaac1-6d24-4be8-9a0b-064f55a954ec"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="5053ed0a-a235-4be0-9ae4-d54d2eab59c9">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="677aaac1-6d24-4be8-9a0b-064f55a954ec"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>304</valueIndices>
+    <valueIndices>304</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="3bab5721-d538-4da9-85fb-4b9fcb14673a">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="6e89d769-205c-44d7-b04c-c3717563d13f"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="2b620409-d033-44a6-a4c9-bb64faba2e9a"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="2eb93280-2622-46a7-8fa0-15867e0c2f9c">
+    <blockPath>Progettino_Simulink/CubeSat Vehicle (Nadir Pointing)/firstAlign2</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="b8187818-3003-4737-92e2-a70cedc62eff"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="6e6d04af-ad77-41dc-b9ff-379dab03abf3">
+    <blockPath>Progettino_Simulink/CubeSat Vehicle (Nadir Pointing)/Reduction DCMs/R_woPM /IAUReduction/Celestial motion of the CIP/P03 Precession/X/Constant</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="9c03652d-7a81-49fe-a7b4-4fb4ca5da06a"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="6e89d769-205c-44d7-b04c-c3717563d13f">
+    <blockPath>Progettino_Simulink/CubeSat Vehicle (Nadir Pointing)/Reduction DCMs/R_woPM /Common Time  Calculation/Julian Date Conversion/Index</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="3bab5721-d538-4da9-85fb-4b9fcb14673a"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="2b620409-d033-44a6-a4c9-bb64faba2e9a">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="3bab5721-d538-4da9-85fb-4b9fcb14673a"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>311</valueIndices>
+    <valueIndices>311</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="e6c47c1f-e059-4437-be95-e6fed5505924">
+    <blockPath>Progettino_Simulink/CubeSat Vehicle (Nadir Pointing)/Reduction DCMs/R_woPM /IAUReduction/Additional Time Calculations/Julian Date Conversion/Index</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="96bf5a14-8c3e-49d8-af85-11bddbc6bd32"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="4e71588b-0825-436f-9e5d-439e7cc66b5b">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="87c5e6e4-b305-40ca-85fe-82d5916281c5"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="a052930a-49ea-44ca-b192-9a39a95d5d81"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="a052930a-49ea-44ca-b192-9a39a95d5d81">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="4e71588b-0825-436f-9e5d-439e7cc66b5b"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>325</valueIndices>
+    <valueIndices>1050</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="9c03652d-7a81-49fe-a7b4-4fb4ca5da06a">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="6e6d04af-ad77-41dc-b9ff-379dab03abf3"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="a95885ab-9677-4f85-8a51-727999dd03bd"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="a95885ab-9677-4f85-8a51-727999dd03bd">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="9c03652d-7a81-49fe-a7b4-4fb4ca5da06a"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>1116</valueIndices>
+    <valueIndices>28315</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="7dc895ce-6dee-4255-bf48-a97a7f431f7f">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="287f0e22-2a0c-4b7e-8a1f-75431a808c0b"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>52873</valueIndices>
+    <valueIndices>52875</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="bdf98481-54f5-4645-8f14-fda420422424">
+    <blockPath>Progettino_Simulink/CubeSat Vehicle (Nadir Pointing)/firstAlign3</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="287f0e22-2a0c-4b7e-8a1f-75431a808c0b"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="fdabbe95-d1a0-45d9-9d46-133433cf8c17">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="9659cf91-cb8c-46d8-b345-3817a256ebef"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="b458d006-e7f1-4360-8352-61b77845b3ee"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="76d2a8d4-6ab1-4d95-97f0-5c5d234987f5">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="b8187818-3003-4737-92e2-a70cedc62eff"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>52870</valueIndices>
+    <valueIndices>52872</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="287f0e22-2a0c-4b7e-8a1f-75431a808c0b">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="bdf98481-54f5-4645-8f14-fda420422424"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="7dc895ce-6dee-4255-bf48-a97a7f431f7f"/>
+  </slsa.mm.rtpregistry.Parameter>
+</MF0>

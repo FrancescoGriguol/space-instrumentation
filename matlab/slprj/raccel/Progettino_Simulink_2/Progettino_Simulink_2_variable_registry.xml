@@ -1,0 +1,1665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/slsa_mm_parameter_tuning/R2021b">
+  <slsa.mm.parametertuning.VariableRegistry type="slsa.mm.parametertuning.VariableRegistry" uuid="c8fbdb50-8e09-4e52-993e-c82b71851b96">
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="a62b4285-c174-4d0a-98e3-0efae8063317">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Anti-windup/Lower Limit</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="864a345a-849b-43ae-bb6c-8ac3ff3dd8a0">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/preSat Signal/Forward_Path/forward</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="869ebae2-d96c-4b59-a1d9-7e27355d3072">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Anti-windup/postSat</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="ce580b0b-cb60-42d0-8756-e94777a39903">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter ICs/Internal IC - Differentiator/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="0efc3bd1-91e9-4fc2-8d3d-79d0be4ef1a5">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Reset Signal/Disabled/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="0ee26cae-9775-4504-a901-7b3c62f41d7e">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Parallel P Gain/P Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="0e367791-e85e-4077-8ba2-f2f962c3eaac">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/u</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="50c78d8f-0f6a-4f3e-895f-f67b9dbb3d47">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Anti-windup/Disabled/preInt</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="c8936e80-63b5-416d-b5d8-5c4c137e3c7f">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Saturation/In1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="c82115e3-fb44-43d4-a3e5-8bb630c8721a">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Anti-windup/preSat</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="279a376a-caec-4ba7-9cfb-b60a4e072c0c">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter/Differentiator/Y</blockPath>
+      <parameterName>OutMax</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="baa839be-ac62-450e-94bc-63bf0f7871ac"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="675b56d9-bbc8-4afb-83ac-b54b931ac007">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Parallel P Gain/Internal Parameters/P Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="67b975d5-fe6a-4cc8-a09f-adab028ef100">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Anti-windup/preInt</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="af5c82ae-15df-4f3b-ab8e-ae9212f6e1e7">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Anti-windup/P</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="af0e730c-b133-4d3c-8fef-cdaa29e410a6">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter/N</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="ef1ef6e8-446c-4e22-b0b0-e93b04c98031">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/D Gain/Internal Parameters/Derivative Gain</blockPath>
+      <parameterName>ParamMax</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="69771f19-6666-4d21-9d27-9d7f24209dfb"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="612c7959-a211-4036-a95e-2c65265bd15f">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Tracking Mode/Disabled/uout</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="61bad727-0927-4225-b4ba-7797f1d2949f">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Tracking Mode/TR</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="612ccdcf-deb1-4212-8bb0-a227aaa03363">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Sum/D</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="61ace1d8-0a37-452a-b33e-9569553d8127">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/I Gain/Disabled/I Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="e1342852-63c6-4ba2-a268-eef6e87ebe0c">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/N Copy/Disabled wSignal Specification/N Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="e1367caa-e27e-4887-9364-3dfeba849eb0">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Anti-windup/Upper Limit</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="57774ef8-5b21-47a0-9ed5-ab177cb9c98c">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter/Differentiator/Tsamp/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="17201ee8-44df-4577-99d8-3805982398b2">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Integrator/I0in</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="17dcc2f7-53dd-48c2-bb4f-49975c562a82">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Anti-windup/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="d76f2da2-b657-4af4-b3d4-16971dd2873e">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Tracking Mode/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="d7e3bf27-7b53-4036-8e58-7203127f927e">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Anti-windup/Disabled/preSat</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="04452102-dbd9-433c-92ce-8de9c95f6ea4">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Anti-windup/Disabled/postSat</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="b04568fb-daf9-4d92-9297-450926e9a02e">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter/Reset</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="30aea860-e745-44c5-a719-650bc342278e">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Anti-windup/Disabled/P</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="f8d5844d-e9d0-4f80-8864-05bcfe5e6c73">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Integrator/state</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="f899ca75-9f9f-4ebb-82ae-05a07ebd3c0a">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Anti-windup/Disabled/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="13269a53-47e6-4392-86d3-b7ccaf1f72e2">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Anti-windup/Disabled/Signal Specification2</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="fa07ba02-750c-4aa1-95ca-9952baa8007c">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter ICs/Internal IC - Differentiator/Signal Specification</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="ba7ed87b-39a7-4b37-9194-c58d55dc5413">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/D Gain/err</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="8f773653-4528-4908-8138-d62dee991d8e">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter/Differentiator/Diff</blockPath>
+      <parameterName>OutMin</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="99e83985-c1d7-4258-89ae-7e3b53a7983b"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="0f322c88-510c-4695-9faf-9af66e0785fb">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Saturation/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="0f92a37b-a635-4734-9c45-a5fbb99d4dba">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Parallel P Gain/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="0fb6e6dc-f117-4ba0-8ed1-da6b1e2557d6">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/D Gain/D Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="e471e05f-3559-4776-86a8-7267d61cccc9">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/D Gain/Internal Parameters/err</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="e44b3696-f548-48a0-b9a5-7d97dbe63b16">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/I Gain/I Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="2438ff1f-a30a-4dbf-bc78-0e67cae91a36">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter/Differentiator/Ts</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="6e6466f5-8991-4870-9d0a-7090c1eb16b2">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/D Gain/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="6e30bf78-55ae-4380-90f6-222d7082aa5a">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Ideal P Gain/P Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="ee4a6a80-5422-4b9b-8ddc-f33b0bee8012">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Ideal P Gain/Passthrough/P Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="ee66c4b6-6ca8-46ab-bb14-cc5835740570">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/D Gain/Internal Parameters/Derivative Gain</blockPath>
+      <parameterName>OutMax</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="6b100a24-8bb3-4453-88d4-020ea5e851b6"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="eecd47c3-626b-47bc-9748-f166d6ce7d0b">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Reset Signal/Disabled/Signal Specification</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="eecf61c7-0408-4f8d-b966-ee0eb0a79031">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/D Gain/Internal Parameters/D Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="96e6d339-cff7-4754-a343-08950e8f89a8">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/D Gain/Internal Parameters/Derivative Gain</blockPath>
+      <parameterName>ParamMin</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="80f9cde5-74d5-4c37-831f-d69bfbcc84a7"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="96e8cbd5-3ca9-4bb2-8500-2b30716768a3">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter/Differentiator/Y</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="1b4485d7-c057-4737-9ac5-4b455bc2b131">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Saturation Fdbk/In1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="1b348e97-8557-4053-8ec6-12f254ff0a5e">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/D Gain/Internal Parameters/Derivative Gain</blockPath>
+      <parameterName>OutMin</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="56b65264-32a5-4c82-a971-33452b732af4"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="65b3d36c-a985-4448-a8ca-e9d93ccaa928">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Ideal P Gain/In1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="a5413dc6-8c1e-43e2-9b77-eb694d0146bf">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Saturation Fdbk/Disabled/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="a5ed72a5-322b-4e53-8f99-b55e04bfed0d">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/D Gain/Internal Parameters/Signal Specification</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="c3e51ea8-464e-4603-b779-9dcfe683ef11">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/D Gain/Internal Parameters/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="ab67100a-0aba-4e9d-b01e-6f8015fb736f">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter/U</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="ed00f0d6-9bf4-4f4d-90fa-ca057b4fda3e">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter/D0in</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="9fcb184f-6773-4fdf-86b6-8b65227c0c49">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter/Nout</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="bd683170-cf1c-470b-82df-1568e43e470f">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Saturation/Lower Limit</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="bd42e920-1a08-4fde-b257-a40dadb0fe77">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter/Ts</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="acf4cfd8-bdf3-4c19-92ae-74ead0fe4bbc">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter/Differentiator/U</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="37c64f2d-a7a2-43c1-8511-529efd2baf5a">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter/Differentiator/Reset</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="e8cada0b-a8b4-42b5-8ac3-902ee826fe0e">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter/Differentiator/D0in</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="8bcbdc08-a588-4ca6-9386-247a811954d0">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter/Differentiator/Nout</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="957b8f64-1b3b-4ef0-9dec-e74a242e162c">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/I Gain/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="d5f9d557-fbbe-4236-9af2-21fcab39ea72">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter ICs/Internal IC - Differentiator/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="55412170-0b9f-4dfa-a505-f3e0f0e62b4b">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter/Differentiator/N</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="593d59f1-7201-4fe0-bd12-d345ffae7a38">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter/Differentiator/Diff</blockPath>
+      <parameterName>OutMax</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="baa839be-ac62-450e-94bc-63bf0f7871ac"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="ffc3e386-5fe9-469a-8265-119d1ef2bc25">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter/Differentiator/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="0016bec9-d760-4a96-9b04-315681ae555c">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter/Differentiator/Tsamp/U</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="75e7742c-b8d2-441b-a315-5c547c20e615">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Sum Fdbk/fromState</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="75d7abc1-a81a-4e7d-8a38-cd63d7d1c035">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter/Differentiator/Tsamp/Ts</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="f9dc7c18-d998-48ca-add6-6816a5d104b9">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Integrator ICs/I0</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="f9ee42a9-2eb5-455f-a71f-ecb110ea633b">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter ICs/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="798e3687-9f83-48c6-a75f-0c926b3bfe01">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter/Differentiator/Tsamp/Internal Ts/U</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="798807e7-482a-4576-898b-43ac02f1e47f">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter/Differentiator/Tsamp/Internal Ts/Ts</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="d821d1f0-301d-4536-a28c-a92222f58fee">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/N Gain/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="d8abfddf-aa1a-4100-b68a-df4aafeafc27">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter/Differentiator/Tsamp/Internal Ts/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="72f08275-eb9d-45b5-bd19-9ec835848530">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter/Differentiator/UD</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="12fc6f9e-865b-4656-8681-9d40f42d370e">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter/Differentiator/Y</blockPath>
+      <parameterName>OutMin</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="99e83985-c1d7-4258-89ae-7e3b53a7983b"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="693f9fa5-3f86-42ef-8283-085123353439">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter/Y</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="c273318e-9638-45e6-ab64-a7c4aeabef1c">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Sum/P</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="c28f4a60-b2b3-4992-be5a-259888b7bcb7">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Reset Signal/Disabled/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="c26389be-097d-40ab-a21e-d048fe36739c">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter ICs/D0</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="1e8fbb12-e5e1-4393-82a0-22241cab1136">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Filter ICs/Internal IC - Differentiator/D0</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="f65df739-04ea-42e1-aaa3-5c20131dbbcf">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/I Gain/err</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="74224f85-dcd0-4a6c-990f-630adbd062a8">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/I Gain/Disabled/Signal Specification</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="52c3b2c8-3731-43c2-9d0a-6283ed3d40c6">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Ideal P Gain/Passthrough/In1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="e620d50c-641a-421e-8c07-010f91d79b97">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Ideal P Gain/Passthrough/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="aebae0dd-6caa-42e9-9f2b-a406809c836c">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Ideal P Gain/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="4f13c9dd-bbe2-4925-b468-f219dba555b2">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/postSat Signal/Forward_Path/feedback</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="4f61bacc-93b7-47a3-8df6-4464ad885022">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Ideal P Gain Fdbk/In1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="675cd8ae-4ed7-4aac-bd33-f2bbe0bd24ef">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Reset Signal/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="6748098a-12b2-492e-941d-96a75d09ff39">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Ideal P Gain Fdbk/P Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="db301609-aff1-4d58-823f-6e715c47c2d9">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/postSat Signal/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="db5640bc-4aa3-4386-9d17-93e7cf470a55">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Ideal P Gain Fdbk/Disabled/In1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="7e435948-f202-4b61-878e-c204f465ef8b">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Ideal P Gain Fdbk/Disabled/P Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="124b0d87-378c-4046-9b37-6d9f4ae54ea4">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Ideal P Gain Fdbk/Disabled/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="f1e5ea32-9bd9-4356-982e-ad359fc15189">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Ideal P Gain Fdbk/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="ea669922-5b81-4c87-bfad-86dd85c0eb5c">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Integrator/U</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="7c25fc18-349e-4ce2-8b63-968b9fc67681">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Integrator/Reset</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="0697a69a-93bb-44f5-8411-127438a4d985">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Integrator/Disabled/U</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="11d4ae6c-710b-4077-9b0f-e9d829b10271">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Integrator/Disabled/Reset</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="ab0496b7-7b25-459e-99fe-d4950b4f7b2c">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Integrator/Disabled/I0in</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="b23b960a-9877-4cb9-8292-57d7b60140a6">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Integrator/Disabled/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="813876b6-a6b8-4e5b-b655-d29f6d0d7250">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Integrator/Disabled/Signal Specification2</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="3ae0519b-d06a-4fd3-9949-5d7000fcffb0">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Saturation/Enabled/Saturation</blockPath>
+      <parameterName>OutMax</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="d3388884-e425-4d4f-8bff-f836fe1bad3e"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="3afc7681-0e32-4a48-b152-cc3b19a8d491">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Integrator/Disabled/Signal Specification4</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="9c4ba03e-3520-4753-aba1-71009f6334ff">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Integrator/Disabled/out</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="0c999a73-1bcf-44f7-9e35-7ea379a98444">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Integrator/out</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="5bfb0283-1389-4644-a0e6-46d8c2f3f705">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Integrator ICs/Disabled/I0</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="53d8631c-abce-4e32-b2a0-dda4a7230e23">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Integrator ICs/Disabled/Signal Specification</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="499bdb7f-cf1e-4298-9fe3-8fb9a5b7b793">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Integrator ICs/Disabled/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="1da6051b-c9b7-49ba-8623-1f5406ffe3a6">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Saturation/Upper Limit</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="1de0d390-b301-4dc4-b12b-d34217a1c49f">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Integrator ICs/Disabled/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="fc033282-12a1-4798-9dfc-b5b9606152fd">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Integrator ICs/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="5f934819-6fae-4236-aff6-a100b7c6b9a8">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/N Copy/N Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="f009d546-2066-4ae7-a68a-3bb91062f076">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/N Copy/Disabled wSignal Specification/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="cd0b984b-21c4-449d-a1bb-cfb1c9b34bc4">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Sum Fdbk/Disabled/fromP</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="cdbb9583-51f9-40f4-9aa0-8481faeab4e7">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Parallel P Gain/Internal Parameters/Proportional Gain</blockPath>
+      <parameterName>OutMax</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="494028a9-3fef-4817-9896-4d3d9b3721c2"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="cdc7cc8e-db56-474b-b47d-9dd26a564b3f">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/N Copy/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="c0fac321-0f7a-4ff7-9926-0440012db5d5">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/N Gain/U</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="80e40706-e99c-4b48-8a29-1aad30a8b9f4">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/N Gain/N Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="5eb103da-3eba-42e9-b8b8-4405e423d743">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/N Gain/Passthrough/U</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="c54efca0-bd10-4cc9-9ee7-9afea6cc5820">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/N Gain/Passthrough/N Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="8f6cebef-12d5-4025-a11c-a5529671df6c">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/N Gain/Passthrough/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="526a4034-ccae-41a0-9af2-54e98cc32103">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/P Copy/P Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="3a2584af-096c-4fc1-b228-e6a676336a0b">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/P Copy/Disabled/P Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="0c7a5b5c-9d33-41b9-a0b9-93902c15c740">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/P Copy/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="eb0df0f4-dd79-4939-a4bb-2ce0f5a4d897">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Parallel P Gain/err</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="3ba23c7f-056a-49c5-ab74-ba55fe9dc2d3">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Parallel P Gain/Internal Parameters/err</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="a8a2978e-bde2-4338-b928-e4d5d4cea914">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Parallel P Gain/Internal Parameters/Proportional Gain</blockPath>
+      <parameterName>ParamMin</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="8703ff2d-f36c-44bd-ad59-52f362987a50"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="106572b8-038a-4975-a55c-5e89f4241363">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Tracking Mode Sum/fromTR</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="10c7139b-7c28-4874-a2f1-b9b63e61b63a">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Parallel P Gain/Internal Parameters/Proportional Gain</blockPath>
+      <parameterName>ParamMax</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="0f09abcc-3890-4bd2-b813-066faf98eaad"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="a7959c47-1972-4d4f-be5e-b589d023937d">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Parallel P Gain/Internal Parameters/Proportional Gain</blockPath>
+      <parameterName>OutMin</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="41c7eb9b-5d41-4927-9916-02e5c1191bac"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="6db307db-194e-41f7-b394-d3ccd3351855">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Parallel P Gain/Internal Parameters/Signal Specification</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="fcba3a71-4ef9-4618-8945-cc3fa355caf8">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Parallel P Gain/Internal Parameters/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="7778afcc-a227-4e13-8fd8-d00a829887e6">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Reset Signal/Reset</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="94db8d85-f335-4d6c-9aa8-407324ad474c">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Reset Signal/Disabled/Reset</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="d1b83e7e-8527-40d6-a451-94969a5e8f07">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Saturation/Enabled/In1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="905c79f1-94ca-4a29-aef9-b21fe71504bc">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Saturation/Enabled/Upper Limit</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="798f5dc1-754e-4978-b716-a9588adb4d32">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Saturation/Enabled/Lower Limit</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="38cff5e3-fd3e-474b-be35-af09cd72ba09">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Saturation/Enabled/Saturation</blockPath>
+      <parameterName>OutMin</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9a642365-1cb5-4ff0-b72f-a0998e3c2100"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="a72a10c7-3d2d-4d22-bf06-51bec6f5cd61">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Saturation/Enabled/Saturation</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="5129909a-36e5-4b02-8082-3eee0e1fc3e7">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Saturation/Enabled/Signal Specification</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="d672ec61-53b6-444a-b5cb-17671a1c6bf6">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Saturation/Enabled/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="350add2c-9958-4042-815e-a68259067b94">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Tracking Mode/uout</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="35926f41-5a3c-438f-86da-62ab0f48e67d">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Saturation/Enabled/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="e8510cab-5250-44dd-8123-86b6e8e831a6">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Saturation Fdbk/Upper Limit</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="22a5ceb9-2326-4512-afb3-eb7e2243b033">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Saturation Fdbk/Lower Limit</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="e5b6fe1b-dace-4640-8fea-83f905fd4539">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Saturation Fdbk/Disabled/In1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="870f730d-387c-4eb5-ba7d-2ad899f4a2fe">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Saturation Fdbk/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="14477236-202e-4897-9bd8-a78ccd702a4f">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Tsamp - Integral/TsSignalSpecification/Ts</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="14cffce1-346c-47af-b2db-99b66b046f7b">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Sum/I</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="97a5ef69-62c5-469f-94a3-bf3d20ee5989">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Sum/Sum_PD/P</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="717eb325-ff93-4697-97ac-5329543f857b">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Sum/Sum_PD/D</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="33ae9af6-537b-4b90-a499-9035553e3e0a">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Sum/Sum_PD/Sum</blockPath>
+      <parameterName>OutMin</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="0f38f162-8246-4d4a-bada-ef409221a53f"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="4787d883-81e5-47a4-90cb-219958ffdf17">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Tracking Mode Sum/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="47c37324-1884-488a-8bc3-eb9b805ac52a">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Sum/Sum_PD/Sum</blockPath>
+      <parameterName>OutMax</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="874b8cd7-5cb6-464c-9f12-91b0493e9013"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="d463a13b-05bf-4267-9aa2-e61fd48771dc">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Sum/Sum_PD/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="21aca8be-b18b-427d-922f-915d8992705c">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Sum/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="815d47d9-e4e9-42ce-9627-12be424d0995">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Sum Fdbk/fromP</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="b73d780c-200e-4018-a35a-4054eea0dcc9">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Sum Fdbk/fromD</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="c49b2fb8-b459-4b1a-a5c8-a59312a81185">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Sum Fdbk/Disabled/fromState</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="bdb798b6-dd01-4e33-89c2-00b699f6c786">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Sum Fdbk/Disabled/fromD</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="cb55b2dc-dd3d-4662-948a-45a98c795830">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Sum Fdbk/Disabled/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="c66c9864-8547-4d28-981b-cca49b5c604f">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Sum Fdbk/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="769423e0-aaed-4446-abfb-69d1e5051ebd">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Tracking Mode/Disabled/TR</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="a3dd3255-0ae5-43f1-9f59-0e0248dbe03a">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Tracking Mode/Disabled/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="4176a1c4-2d68-414e-a647-c9164b87e3a1">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Tracking Mode Sum/fromIgain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="baef6db1-e121-4375-81b4-f5b00cc2849b">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Tsamp - Integral/TsSignalSpecification/Signal Specification</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="ba6f1fdc-fbb6-4225-9c9b-cf8f1cafed39">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Tracking Mode Sum/Passthrough/fromIgain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="44c71813-952d-41ff-96c4-20336b4903f8">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Tracking Mode Sum/Passthrough/fromTR</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="5606c26f-2e3e-469a-8059-b85c56c92cf1">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Tracking Mode Sum/Passthrough/Signal Specification</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="aa2b84ee-0cb4-4d51-a3f8-d2c7d7c0fb72">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Tracking Mode Sum/Passthrough/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="70bbc173-1018-4088-8dcf-8de3e054016b">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/preSat Signal/Forward_Path/feedback</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="702b4f14-3109-421a-86f8-64eabf16ebb0">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Tsamp - Integral/U</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="004dc815-48c8-4f5b-aa95-c65eb4eb7255">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Tsamp - Integral/Ts</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="6c1ac0d0-44ad-461a-98ee-4e0701cdf8b3">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Tsamp - Integral/TsSignalSpecification/U</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="20e60c64-8385-4877-befd-0d7f6c096274">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Tsamp - Integral/TsSignalSpecification/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="d36444d9-e795-4fe1-9a98-1c35ca92227e">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Tsamp - Integral/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="5c02be6b-bea5-4202-af8d-0044c6177801">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Tsamp - Ngain/U</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="2b34bf64-a810-49a6-a709-294fc965ce9b">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Tsamp - Ngain/Ts</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="69389fe3-81f0-4f1a-a20e-f927715489cb">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Tsamp - Ngain/Passthrough/U</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="33c57953-3e62-440c-97cc-ca7a39d6d4ed">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Tsamp - Ngain/Passthrough/Ts</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="bc548490-909a-4a48-bbdd-41bc7e2f5e80">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Tsamp - Ngain/Passthrough/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="da7e82b8-55f3-40e4-8a3f-c3b12909107d">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/Tsamp - Ngain/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="8547e2c7-f067-435b-8961-bdadc786ab5a">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/postSat Signal/feedback</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="866bada8-d6ff-4a8e-b490-0fd46af1db1a">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/postSat Signal/forward</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="3293cee0-0522-4de2-805d-35fd6251402e">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/postSat Signal/Forward_Path/forward</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="96716801-cfd9-478d-8e15-e05baa0c3dd0">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/postSat Signal/Forward_Path/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="b2d88856-0d21-4649-96af-a7680beab47e">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/postSat Signal/Forward_Path/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="b69ad086-d58d-4a6e-b11f-33351fa6055e">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/preSat Signal/feedback</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="47b43ab5-3fe4-4f02-8696-61596a08364e">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/preSat Signal/forward</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="eb14ae97-723d-44f4-bdcf-4b90f4b3e88f">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/preSat Signal/Forward_Path/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="c1d32e14-9ba3-4ae8-a0b9-cff375518dba">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/preSat Signal/Forward_Path/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="5d866795-4e08-43af-bf42-5b28993504d8">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/preSat Signal/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="9e0fc89e-15f6-4be1-a24f-eb0037dceed3">
+      <blockPath>Progettino_Simulink_2/Attitude  Controller/Demo Controller/y</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <isTunable>false</isTunable>
+    </blockParameters>
+    <defaultValueCachePath>C:\Users\LENOVO\Desktop\UNIPD\ANNO 5 UNIPD\1 SEMESTRE 20232024 UNIPD\STRUMENTAZIONE SPAZIALE [STRUMSPAZ]\Progettino\MATLAB Progettino\slprj\raccel\Progettino_Simulink_2\Progettino_Simulink_2_default_variable_values.mat</defaultValueCachePath>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="80f9cde5-74d5-4c37-831f-d69bfbcc84a7">
+      <expression>DParamMin</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="96e6d339-cff7-4754-a343-08950e8f89a8"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="550008ce-9b77-4d13-bd64-ecb8b5d42a23"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="783eb448-8300-470a-9c42-372111bfbd23">
+      <expression>-1</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="1fbb1c05-9dfb-4a74-ad33-232089818b39"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="6b100a24-8bb3-4453-88d4-020ea5e851b6">
+      <expression>DOutMax</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="ee66c4b6-6ca8-46ab-bb14-cc5835740570"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="e51d8f2d-e1a8-4fb2-96db-089ca803c1c9"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="d3388884-e425-4d4f-8bff-f836fe1bad3e">
+      <expression>SaturationOutMax</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="3ae0519b-d06a-4fd3-9949-5d7000fcffb0"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="7f738982-4e8e-4dbc-ac64-16212427d68c"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a">
+      <expression>SampleTime</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="e620d50c-641a-421e-8c07-010f91d79b97"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="a62b4285-c174-4d0a-98e3-0efae8063317"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="864a345a-849b-43ae-bb6c-8ac3ff3dd8a0"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="869ebae2-d96c-4b59-a1d9-7e27355d3072"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="ce580b0b-cb60-42d0-8756-e94777a39903"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="0efc3bd1-91e9-4fc2-8d3d-79d0be4ef1a5"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="0ee26cae-9775-4504-a901-7b3c62f41d7e"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="0e367791-e85e-4077-8ba2-f2f962c3eaac"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="50c78d8f-0f6a-4f3e-895f-f67b9dbb3d47"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="c8936e80-63b5-416d-b5d8-5c4c137e3c7f"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="c82115e3-fb44-43d4-a3e5-8bb630c8721a"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="675cd8ae-4ed7-4aac-bd33-f2bbe0bd24ef"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="6748098a-12b2-492e-941d-96a75d09ff39"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="675b56d9-bbc8-4afb-83ac-b54b931ac007"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="67b975d5-fe6a-4cc8-a09f-adab028ef100"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="af5c82ae-15df-4f3b-ab8e-ae9212f6e1e7"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="af0e730c-b133-4d3c-8fef-cdaa29e410a6"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="612c7959-a211-4036-a95e-2c65265bd15f"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="61bad727-0927-4225-b4ba-7797f1d2949f"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="612ccdcf-deb1-4212-8bb0-a227aaa03363"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="61ace1d8-0a37-452a-b33e-9569553d8127"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="e1342852-63c6-4ba2-a268-eef6e87ebe0c"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="e1367caa-e27e-4887-9364-3dfeba849eb0"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="57774ef8-5b21-47a0-9ed5-ab177cb9c98c"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="17201ee8-44df-4577-99d8-3805982398b2"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="17dcc2f7-53dd-48c2-bb4f-49975c562a82"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="d76f2da2-b657-4af4-b3d4-16971dd2873e"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="d7e3bf27-7b53-4036-8e58-7203127f927e"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="04452102-dbd9-433c-92ce-8de9c95f6ea4"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="b04568fb-daf9-4d92-9297-450926e9a02e"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="30aea860-e745-44c5-a719-650bc342278e"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="f8d5844d-e9d0-4f80-8864-05bcfe5e6c73"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="f899ca75-9f9f-4ebb-82ae-05a07ebd3c0a"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="13269a53-47e6-4392-86d3-b7ccaf1f72e2"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="fa07ba02-750c-4aa1-95ca-9952baa8007c"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="ba7ed87b-39a7-4b37-9194-c58d55dc5413"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="4f13c9dd-bbe2-4925-b468-f219dba555b2"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="4f61bacc-93b7-47a3-8df6-4464ad885022"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="0f322c88-510c-4695-9faf-9af66e0785fb"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="0f92a37b-a635-4734-9c45-a5fbb99d4dba"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="0fb6e6dc-f117-4ba0-8ed1-da6b1e2557d6"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="e471e05f-3559-4776-86a8-7267d61cccc9"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="e44b3696-f548-48a0-b9a5-7d97dbe63b16"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="2438ff1f-a30a-4dbf-bc78-0e67cae91a36"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="aebae0dd-6caa-42e9-9f2b-a406809c836c"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="ee4a6a80-5422-4b9b-8ddc-f33b0bee8012"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="6e6466f5-8991-4870-9d0a-7090c1eb16b2"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="6e30bf78-55ae-4380-90f6-222d7082aa5a"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="eecd47c3-626b-47bc-9748-f166d6ce7d0b"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="eecf61c7-0408-4f8d-b966-ee0eb0a79031"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="65b3d36c-a985-4448-a8ca-e9d93ccaa928"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="a5413dc6-8c1e-43e2-9b77-eb694d0146bf"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="a5ed72a5-322b-4e53-8f99-b55e04bfed0d"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="c3e51ea8-464e-4603-b779-9dcfe683ef11"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="ab67100a-0aba-4e9d-b01e-6f8015fb736f"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="ed00f0d6-9bf4-4f4d-90fa-ca057b4fda3e"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="9fcb184f-6773-4fdf-86b6-8b65227c0c49"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="bd683170-cf1c-470b-82df-1568e43e470f"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="bd42e920-1a08-4fde-b257-a40dadb0fe77"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="acf4cfd8-bdf3-4c19-92ae-74ead0fe4bbc"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="37c64f2d-a7a2-43c1-8511-529efd2baf5a"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="e8cada0b-a8b4-42b5-8ac3-902ee826fe0e"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="8bcbdc08-a588-4ca6-9386-247a811954d0"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="957b8f64-1b3b-4ef0-9dec-e74a242e162c"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="d5f9d557-fbbe-4236-9af2-21fcab39ea72"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="55412170-0b9f-4dfa-a505-f3e0f0e62b4b"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="ffc3e386-5fe9-469a-8265-119d1ef2bc25"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="0016bec9-d760-4a96-9b04-315681ae555c"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="75e7742c-b8d2-441b-a315-5c547c20e615"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="75d7abc1-a81a-4e7d-8a38-cd63d7d1c035"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="f9dc7c18-d998-48ca-add6-6816a5d104b9"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="f9ee42a9-2eb5-455f-a71f-ecb110ea633b"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="798e3687-9f83-48c6-a75f-0c926b3bfe01"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="798807e7-482a-4576-898b-43ac02f1e47f"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="d821d1f0-301d-4536-a28c-a92222f58fee"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="d8abfddf-aa1a-4100-b68a-df4aafeafc27"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="72f08275-eb9d-45b5-bd19-9ec835848530"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="96e8cbd5-3ca9-4bb2-8500-2b30716768a3"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="693f9fa5-3f86-42ef-8283-085123353439"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="c273318e-9638-45e6-ab64-a7c4aeabef1c"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="c28f4a60-b2b3-4992-be5a-259888b7bcb7"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="c26389be-097d-40ab-a21e-d048fe36739c"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="1e8fbb12-e5e1-4393-82a0-22241cab1136"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="f65df739-04ea-42e1-aaa3-5c20131dbbcf"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="74224f85-dcd0-4a6c-990f-630adbd062a8"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="52c3b2c8-3731-43c2-9d0a-6283ed3d40c6"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="db301609-aff1-4d58-823f-6e715c47c2d9"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="db5640bc-4aa3-4386-9d17-93e7cf470a55"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="7e435948-f202-4b61-878e-c204f465ef8b"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="124b0d87-378c-4046-9b37-6d9f4ae54ea4"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="f1e5ea32-9bd9-4356-982e-ad359fc15189"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="ea669922-5b81-4c87-bfad-86dd85c0eb5c"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="7c25fc18-349e-4ce2-8b63-968b9fc67681"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="0697a69a-93bb-44f5-8411-127438a4d985"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="11d4ae6c-710b-4077-9b0f-e9d829b10271"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="ab0496b7-7b25-459e-99fe-d4950b4f7b2c"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="b23b960a-9877-4cb9-8292-57d7b60140a6"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="813876b6-a6b8-4e5b-b655-d29f6d0d7250"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="3afc7681-0e32-4a48-b152-cc3b19a8d491"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="9c4ba03e-3520-4753-aba1-71009f6334ff"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="0c999a73-1bcf-44f7-9e35-7ea379a98444"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="5bfb0283-1389-4644-a0e6-46d8c2f3f705"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="53d8631c-abce-4e32-b2a0-dda4a7230e23"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="499bdb7f-cf1e-4298-9fe3-8fb9a5b7b793"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="1da6051b-c9b7-49ba-8623-1f5406ffe3a6"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="1de0d390-b301-4dc4-b12b-d34217a1c49f"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="fc033282-12a1-4798-9dfc-b5b9606152fd"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="5f934819-6fae-4236-aff6-a100b7c6b9a8"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="f009d546-2066-4ae7-a68a-3bb91062f076"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="cd0b984b-21c4-449d-a1bb-cfb1c9b34bc4"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="cdc7cc8e-db56-474b-b47d-9dd26a564b3f"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="c0fac321-0f7a-4ff7-9926-0440012db5d5"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="80e40706-e99c-4b48-8a29-1aad30a8b9f4"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="5eb103da-3eba-42e9-b8b8-4405e423d743"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="c54efca0-bd10-4cc9-9ee7-9afea6cc5820"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="8f6cebef-12d5-4025-a11c-a5529671df6c"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="526a4034-ccae-41a0-9af2-54e98cc32103"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="3a2584af-096c-4fc1-b228-e6a676336a0b"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="0c7a5b5c-9d33-41b9-a0b9-93902c15c740"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="eb0df0f4-dd79-4939-a4bb-2ce0f5a4d897"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="3ba23c7f-056a-49c5-ab74-ba55fe9dc2d3"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="6db307db-194e-41f7-b394-d3ccd3351855"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="fcba3a71-4ef9-4618-8945-cc3fa355caf8"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="7778afcc-a227-4e13-8fd8-d00a829887e6"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="94db8d85-f335-4d6c-9aa8-407324ad474c"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="d1b83e7e-8527-40d6-a451-94969a5e8f07"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="905c79f1-94ca-4a29-aef9-b21fe71504bc"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="798f5dc1-754e-4978-b716-a9588adb4d32"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="a72a10c7-3d2d-4d22-bf06-51bec6f5cd61"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="5129909a-36e5-4b02-8082-3eee0e1fc3e7"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="d672ec61-53b6-444a-b5cb-17671a1c6bf6"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="350add2c-9958-4042-815e-a68259067b94"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="35926f41-5a3c-438f-86da-62ab0f48e67d"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="1b4485d7-c057-4737-9ac5-4b455bc2b131"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="e8510cab-5250-44dd-8123-86b6e8e831a6"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="22a5ceb9-2326-4512-afb3-eb7e2243b033"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="e5b6fe1b-dace-4640-8fea-83f905fd4539"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="870f730d-387c-4eb5-ba7d-2ad899f4a2fe"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="14477236-202e-4897-9bd8-a78ccd702a4f"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="14cffce1-346c-47af-b2db-99b66b046f7b"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="97a5ef69-62c5-469f-94a3-bf3d20ee5989"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="717eb325-ff93-4697-97ac-5329543f857b"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="d463a13b-05bf-4267-9aa2-e61fd48771dc"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="21aca8be-b18b-427d-922f-915d8992705c"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="815d47d9-e4e9-42ce-9627-12be424d0995"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="b73d780c-200e-4018-a35a-4054eea0dcc9"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="c49b2fb8-b459-4b1a-a5c8-a59312a81185"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="bdb798b6-dd01-4e33-89c2-00b699f6c786"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="cb55b2dc-dd3d-4662-948a-45a98c795830"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="c66c9864-8547-4d28-981b-cca49b5c604f"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="769423e0-aaed-4446-abfb-69d1e5051ebd"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="a3dd3255-0ae5-43f1-9f59-0e0248dbe03a"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="4176a1c4-2d68-414e-a647-c9164b87e3a1"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="106572b8-038a-4975-a55c-5e89f4241363"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="baef6db1-e121-4375-81b4-f5b00cc2849b"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="ba6f1fdc-fbb6-4225-9c9b-cf8f1cafed39"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="44c71813-952d-41ff-96c4-20336b4903f8"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="5606c26f-2e3e-469a-8059-b85c56c92cf1"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="aa2b84ee-0cb4-4d51-a3f8-d2c7d7c0fb72"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="4787d883-81e5-47a4-90cb-219958ffdf17"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="70bbc173-1018-4088-8dcf-8de3e054016b"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="702b4f14-3109-421a-86f8-64eabf16ebb0"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="004dc815-48c8-4f5b-aa95-c65eb4eb7255"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="6c1ac0d0-44ad-461a-98ee-4e0701cdf8b3"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="20e60c64-8385-4877-befd-0d7f6c096274"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="d36444d9-e795-4fe1-9a98-1c35ca92227e"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="5c02be6b-bea5-4202-af8d-0044c6177801"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="2b34bf64-a810-49a6-a709-294fc965ce9b"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="69389fe3-81f0-4f1a-a20e-f927715489cb"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="33c57953-3e62-440c-97cc-ca7a39d6d4ed"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="bc548490-909a-4a48-bbdd-41bc7e2f5e80"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="da7e82b8-55f3-40e4-8a3f-c3b12909107d"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="8547e2c7-f067-435b-8961-bdadc786ab5a"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="866bada8-d6ff-4a8e-b490-0fd46af1db1a"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="3293cee0-0522-4de2-805d-35fd6251402e"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="96716801-cfd9-478d-8e15-e05baa0c3dd0"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="b2d88856-0d21-4649-96af-a7680beab47e"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="b69ad086-d58d-4a6e-b11f-33351fa6055e"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="47b43ab5-3fe4-4f02-8696-61596a08364e"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="eb14ae97-723d-44f4-bdcf-4b90f4b3e88f"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="c1d32e14-9ba3-4ae8-a0b9-cff375518dba"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="5d866795-4e08-43af-bf42-5b28993504d8"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="9e0fc89e-15f6-4be1-a24f-eb0037dceed3"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="bf9ff8d7-e7c9-4893-99b7-f5690d48270f"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="77450703-f843-446c-bb07-aaeadfec1555">
+      <expression>[]</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="6b181f7c-6c8e-4e64-91d7-8a15f4561b5b"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="701dbd28-bcb1-4255-b257-389ef8978741"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="40155f6e-bbac-4695-9f26-4f3491428b2e"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="35a4c729-514d-4a4a-9077-a7b0ee6a6842"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="95542223-d394-44e2-a12a-6329c6ea25e9"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="5a4dfb9f-95d7-40d2-8132-27f4eea8f8f6"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="667373b9-9653-430d-8bbf-ac893f7233b1"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="09f2a117-0198-4d43-8e71-ff80c2dab153"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="6c4954ec-0ab3-477a-93db-fe2ff8e4349f"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="6d13bc4e-96e9-4f72-bbb0-de86f5c818f0"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="93716136-f25e-453c-ae28-99d59d6c27aa"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="440c7f27-a92a-4efd-a71f-6c7b4e4a703b"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="e2a3944b-9e23-4590-ab75-eb82ccb38a83"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="6e5e5445-9132-467c-9e15-3efcca2bff33"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="99e83985-c1d7-4258-89ae-7e3b53a7983b">
+      <expression>DifferentiatorOutMin</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="8f773653-4528-4908-8138-d62dee991d8e"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="12fc6f9e-865b-4656-8681-9d40f42d370e"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="675ffde9-fd65-4eed-9f2b-f2d263d2015b"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="69771f19-6666-4d21-9d27-9d7f24209dfb">
+      <expression>DParamMax</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="ef1ef6e8-446c-4e22-b0b0-e93b04c98031"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="d5ef7cd4-26ee-4a43-93c4-b597daa1963c"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="56b65264-32a5-4c82-a971-33452b732af4">
+      <expression>DOutMin</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="1b348e97-8557-4053-8ec6-12f254ff0a5e"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="3e2d4ea0-21c8-47f1-9b9c-0fb75b244ac0"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="baa839be-ac62-450e-94bc-63bf0f7871ac">
+      <expression>DifferentiatorOutMax</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="593d59f1-7201-4fe0-bd12-d345ffae7a38"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="279a376a-caec-4ba7-9cfb-b60a4e072c0c"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="766e706f-b86c-406b-baea-a46d92401381"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="874b8cd7-5cb6-464c-9f12-91b0493e9013">
+      <expression>SumOutMax</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="47c37324-1884-488a-8bc3-eb9b805ac52a"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="bb7e792e-0a02-4f18-b93c-5c65946cd7e1"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="8703ff2d-f36c-44bd-ad59-52f362987a50">
+      <expression>PParamMin</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="a8a2978e-bde2-4338-b928-e4d5d4cea914"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="e191bb7d-3be4-4d23-9434-cdbac81ebb8e"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="0f38f162-8246-4d4a-bada-ef409221a53f">
+      <expression>SumOutMin</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="33ae9af6-537b-4b90-a499-9035553e3e0a"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="40d6e2a1-42ca-45e1-a91d-38b87fa94a05"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="0f09abcc-3890-4bd2-b813-066faf98eaad">
+      <expression>PParamMax</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="10c7139b-7c28-4874-a2f1-b9b63e61b63a"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="a00cc63d-ff1e-4a09-bf8a-215d2b9bbc1e"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="41c7eb9b-5d41-4927-9916-02e5c1191bac">
+      <expression>POutMin</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="a7959c47-1972-4d4f-be5e-b589d023937d"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="8efbd681-b3a3-4757-a414-024eb702e2dc"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="494028a9-3fef-4817-9896-4d3d9b3721c2">
+      <expression>POutMax</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="cdbb9583-51f9-40f4-9aa0-8481faeab4e7"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="6b8f67a3-d484-4d56-b989-09602fbd8318"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="9a642365-1cb5-4ff0-b72f-a0998e3c2100">
+      <expression>SaturationOutMin</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="38cff5e3-fd3e-474b-be35-af09cd72ba09"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="84f5ab16-d0fb-4d8f-95c5-35f8cbf02ae0"/>
+    </expressions>
+    <name>Progettino_Simulink_2</name>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="1fbb1c05-9dfb-4a74-ad33-232089818b39">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="bf9ff8d7-e7c9-4893-99b7-f5690d48270f"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="783eb448-8300-470a-9c42-372111bfbd23"/>
+      <isTunable>false</isTunable>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="6b181f7c-6c8e-4e64-91d7-8a15f4561b5b">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="550008ce-9b77-4d13-bd64-ecb8b5d42a23"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="77450703-f843-446c-bb07-aaeadfec1555"/>
+      <isTunable>false</isTunable>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="701dbd28-bcb1-4255-b257-389ef8978741">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="675ffde9-fd65-4eed-9f2b-f2d263d2015b"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="77450703-f843-446c-bb07-aaeadfec1555"/>
+      <isTunable>false</isTunable>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="40155f6e-bbac-4695-9f26-4f3491428b2e">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="d5ef7cd4-26ee-4a43-93c4-b597daa1963c"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="77450703-f843-446c-bb07-aaeadfec1555"/>
+      <isTunable>false</isTunable>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="35a4c729-514d-4a4a-9077-a7b0ee6a6842">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="e191bb7d-3be4-4d23-9434-cdbac81ebb8e"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="77450703-f843-446c-bb07-aaeadfec1555"/>
+      <isTunable>false</isTunable>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="95542223-d394-44e2-a12a-6329c6ea25e9">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="3e2d4ea0-21c8-47f1-9b9c-0fb75b244ac0"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="77450703-f843-446c-bb07-aaeadfec1555"/>
+      <isTunable>false</isTunable>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="5a4dfb9f-95d7-40d2-8132-27f4eea8f8f6">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="e51d8f2d-e1a8-4fb2-96db-089ca803c1c9"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="77450703-f843-446c-bb07-aaeadfec1555"/>
+      <isTunable>false</isTunable>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="667373b9-9653-430d-8bbf-ac893f7233b1">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="766e706f-b86c-406b-baea-a46d92401381"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="77450703-f843-446c-bb07-aaeadfec1555"/>
+      <isTunable>false</isTunable>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="09f2a117-0198-4d43-8e71-ff80c2dab153">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="a00cc63d-ff1e-4a09-bf8a-215d2b9bbc1e"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="77450703-f843-446c-bb07-aaeadfec1555"/>
+      <isTunable>false</isTunable>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="6c4954ec-0ab3-477a-93db-fe2ff8e4349f">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="8efbd681-b3a3-4757-a414-024eb702e2dc"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="77450703-f843-446c-bb07-aaeadfec1555"/>
+      <isTunable>false</isTunable>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="6d13bc4e-96e9-4f72-bbb0-de86f5c818f0">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="6b8f67a3-d484-4d56-b989-09602fbd8318"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="77450703-f843-446c-bb07-aaeadfec1555"/>
+      <isTunable>false</isTunable>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="93716136-f25e-453c-ae28-99d59d6c27aa">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="84f5ab16-d0fb-4d8f-95c5-35f8cbf02ae0"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="77450703-f843-446c-bb07-aaeadfec1555"/>
+      <isTunable>false</isTunable>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="440c7f27-a92a-4efd-a71f-6c7b4e4a703b">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="7f738982-4e8e-4dbc-ac64-16212427d68c"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="77450703-f843-446c-bb07-aaeadfec1555"/>
+      <isTunable>false</isTunable>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="e2a3944b-9e23-4590-ab75-eb82ccb38a83">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="40d6e2a1-42ca-45e1-a91d-38b87fa94a05"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="77450703-f843-446c-bb07-aaeadfec1555"/>
+      <isTunable>false</isTunable>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="6e5e5445-9132-467c-9e15-3efcca2bff33">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="bb7e792e-0a02-4f18-b93c-5c65946cd7e1"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="77450703-f843-446c-bb07-aaeadfec1555"/>
+      <isTunable>false</isTunable>
+    </variableDefinitions>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="675ffde9-fd65-4eed-9f2b-f2d263d2015b">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="701dbd28-bcb1-4255-b257-389ef8978741"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="99e83985-c1d7-4258-89ae-7e3b53a7983b"/>
+      <name>DifferentiatorOutMin</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="5b9e6369-2128-41ec-9c15-cf91bbcd93f3"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="7f738982-4e8e-4dbc-ac64-16212427d68c">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="440c7f27-a92a-4efd-a71f-6c7b4e4a703b"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="d3388884-e425-4d4f-8bff-f836fe1bad3e"/>
+      <name>SaturationOutMax</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="5b9e6369-2128-41ec-9c15-cf91bbcd93f3"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="bf9ff8d7-e7c9-4893-99b7-f5690d48270f">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="1fbb1c05-9dfb-4a74-ad33-232089818b39"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="9326ce60-df26-4371-82fb-a8b1366d986a"/>
+      <name>SampleTime</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="5b9e6369-2128-41ec-9c15-cf91bbcd93f3"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="e51d8f2d-e1a8-4fb2-96db-089ca803c1c9">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="5a4dfb9f-95d7-40d2-8132-27f4eea8f8f6"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="6b100a24-8bb3-4453-88d4-020ea5e851b6"/>
+      <name>DOutMax</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="5b9e6369-2128-41ec-9c15-cf91bbcd93f3"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="550008ce-9b77-4d13-bd64-ecb8b5d42a23">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="6b181f7c-6c8e-4e64-91d7-8a15f4561b5b"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="80f9cde5-74d5-4c37-831f-d69bfbcc84a7"/>
+      <name>DParamMin</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="5b9e6369-2128-41ec-9c15-cf91bbcd93f3"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="d5ef7cd4-26ee-4a43-93c4-b597daa1963c">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="40155f6e-bbac-4695-9f26-4f3491428b2e"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="69771f19-6666-4d21-9d27-9d7f24209dfb"/>
+      <name>DParamMax</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="5b9e6369-2128-41ec-9c15-cf91bbcd93f3"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="766e706f-b86c-406b-baea-a46d92401381">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="667373b9-9653-430d-8bbf-ac893f7233b1"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="baa839be-ac62-450e-94bc-63bf0f7871ac"/>
+      <name>DifferentiatorOutMax</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="5b9e6369-2128-41ec-9c15-cf91bbcd93f3"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="3e2d4ea0-21c8-47f1-9b9c-0fb75b244ac0">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="95542223-d394-44e2-a12a-6329c6ea25e9"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="56b65264-32a5-4c82-a971-33452b732af4"/>
+      <name>DOutMin</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="5b9e6369-2128-41ec-9c15-cf91bbcd93f3"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="e191bb7d-3be4-4d23-9434-cdbac81ebb8e">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="35a4c729-514d-4a4a-9077-a7b0ee6a6842"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="8703ff2d-f36c-44bd-ad59-52f362987a50"/>
+      <name>PParamMin</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="5b9e6369-2128-41ec-9c15-cf91bbcd93f3"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="a00cc63d-ff1e-4a09-bf8a-215d2b9bbc1e">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="09f2a117-0198-4d43-8e71-ff80c2dab153"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="0f09abcc-3890-4bd2-b813-066faf98eaad"/>
+      <name>PParamMax</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="5b9e6369-2128-41ec-9c15-cf91bbcd93f3"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="8efbd681-b3a3-4757-a414-024eb702e2dc">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="6c4954ec-0ab3-477a-93db-fe2ff8e4349f"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="41c7eb9b-5d41-4927-9916-02e5c1191bac"/>
+      <name>POutMin</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="5b9e6369-2128-41ec-9c15-cf91bbcd93f3"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="6b8f67a3-d484-4d56-b989-09602fbd8318">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="6d13bc4e-96e9-4f72-bbb0-de86f5c818f0"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="494028a9-3fef-4817-9896-4d3d9b3721c2"/>
+      <name>POutMax</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="5b9e6369-2128-41ec-9c15-cf91bbcd93f3"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="84f5ab16-d0fb-4d8f-95c5-35f8cbf02ae0">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="93716136-f25e-453c-ae28-99d59d6c27aa"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="9a642365-1cb5-4ff0-b72f-a0998e3c2100"/>
+      <name>SaturationOutMin</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="5b9e6369-2128-41ec-9c15-cf91bbcd93f3"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="40d6e2a1-42ca-45e1-a91d-38b87fa94a05">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="e2a3944b-9e23-4590-ab75-eb82ccb38a83"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="0f38f162-8246-4d4a-bada-ef409221a53f"/>
+      <name>SumOutMin</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="5b9e6369-2128-41ec-9c15-cf91bbcd93f3"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="bb7e792e-0a02-4f18-b93c-5c65946cd7e1">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="6e5e5445-9132-467c-9e15-3efcca2bff33"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="874b8cd7-5cb6-464c-9f12-91b0493e9013"/>
+      <name>SumOutMax</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="5b9e6369-2128-41ec-9c15-cf91bbcd93f3"/>
+    </variables>
+    <workspaces type="slsa.mm.parametertuning.Workspace" uuid="5b9e6369-2128-41ec-9c15-cf91bbcd93f3">
+      <name>Progettino_Simulink_2:3</name>
+      <type>MASK</type>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="675ffde9-fd65-4eed-9f2b-f2d263d2015b"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="7f738982-4e8e-4dbc-ac64-16212427d68c"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="bf9ff8d7-e7c9-4893-99b7-f5690d48270f"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="e51d8f2d-e1a8-4fb2-96db-089ca803c1c9"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="550008ce-9b77-4d13-bd64-ecb8b5d42a23"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="d5ef7cd4-26ee-4a43-93c4-b597daa1963c"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="766e706f-b86c-406b-baea-a46d92401381"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="3e2d4ea0-21c8-47f1-9b9c-0fb75b244ac0"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="e191bb7d-3be4-4d23-9434-cdbac81ebb8e"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="a00cc63d-ff1e-4a09-bf8a-215d2b9bbc1e"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="8efbd681-b3a3-4757-a414-024eb702e2dc"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="6b8f67a3-d484-4d56-b989-09602fbd8318"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="84f5ab16-d0fb-4d8f-95c5-35f8cbf02ae0"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="40d6e2a1-42ca-45e1-a91d-38b87fa94a05"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="bb7e792e-0a02-4f18-b93c-5c65946cd7e1"/>
+    </workspaces>
+  </slsa.mm.parametertuning.VariableRegistry>
+</MF0>
